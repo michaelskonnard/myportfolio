@@ -25,12 +25,20 @@ em, strong {
     background-color: #B2D6FF;    /* Light blue */
 }
 
+li {
+    display: inline;
+  }
+
 ul {
-list-style-type: circle;
+list-style-type: none;
+margin: 0;
+padding: 0;
+align-self: center;
 }
 
 ol {
 list-style-type: lower-roman;
+align-self: center;
 }
 
 a {
@@ -66,3 +74,4 @@ em {
   #button-2 {
     color: #57d696;  /* Dark gray */
   }
+
